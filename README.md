@@ -1,1 +1,17 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/vgbm4cZ0)
+
+# Corporate Agent – Gemini-Powered Version
+
+ This is a working version of the Corporate Agent with Gemini Pro integration.
+
+## Setup
+
+1. Install dependencies:
+   pip install gradio python-docx google-generativeai
+
+2. Replace YOUR_GEMINI_API_KEY in `doc_analyzer.py`.
+
+3. Run the app:
+   python app.py
+
+4. Upload `.docx` legal files.
+5. Outputs will be saved in the `outputs/` folder.

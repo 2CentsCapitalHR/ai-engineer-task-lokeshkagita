@@ -1,0 +1,43 @@
+{
+    "process": "Company Incorporation",
+    "documents_uploaded": 1,
+    "required_documents": 5,
+    "missing_document": [
+        "Memorandum of Association",
+        "Board Resolution Template",
+        "UBO Declaration Form",
+        "Register of Members and Directors"
+    ],
+    "issues_found": [
+        {
+            "section": "CLAUSE 3: JURISDICTION",
+            "issue": "Incorrect jurisdiction reference. The clause incorrectly grants exclusive jurisdiction to the 'courts of the United Arab Emirates'. Under the ADGM legal framework, ADGM Courts have exclusive jurisdiction over disputes involving ADGM entities.",
+            "severity": "High",
+            "suggestion": "Replace the clause with the following: 'The ADGM Courts shall have exclusive jurisdiction to settle any dispute which may arise out of or in connection with these Articles.'"
+        },
+        {
+            "section": "CLAUSE 7: REGISTERED OFFICE",
+            "issue": "Missing mandatory information and non-compliant format. The registered office address is left blank. The ADGM Companies Regulations 2020 (Part 3, Section 34) mandate that a company must have a registered office in the ADGM at all times.",
+            "severity": "High",
+            "suggestion": "Amend the clause to state: 'The registered office of the Company will be situated in the Abu Dhabi Global Market.' The specific physical address must then be provided to the ADGM Registrar upon incorporation."
+        },
+        {
+            "section": "CLAUSE 12: DIRECTORS' POWERS",
+            "issue": "Ambiguous and non-binding language. The phrase 'as they see fit' is overly broad and does not subject the directors' powers to the ADGM Companies Regulations or the company's own articles, which is a legal requirement.",
+            "severity": "Medium",
+            "suggestion": "Reword the clause for clarity and compliance. For example: 'Subject to the Regulations and these Articles, the business of the Company shall be managed by the directors, who may exercise all the powers of the Company.'"
+        },
+        {
+            "section": "CLAUSE 18: SHARE TRANSFERS",
+            "issue": "The clause is overly simplistic and contains a non-standard note '[Missing signature section]'. ADGM model articles require more detail regarding the instrument of transfer and the directors' right to refuse registration.",
+            "severity": "Medium",
+            "suggestion": "Replace with a comprehensive clause based on the ADGM Model Articles, such as: 'Any transfer of a share must be in writing in a form approved by the directors. The directors may, in their absolute discretion, refuse to register the transfer of a share.' The note should be removed entirely."
+        },
+        {
+            "section": "ENTIRE DOCUMENT",
+            "issue": "Critical omission of the signatory page. The Articles of Association are a constitutional document that must be legally executed by the founder shareholder(s) to be valid. The note '[No signatory page included]' confirms this omission.",
+            "severity": "Critical",
+            "suggestion": "Add a complete signatory page at the end of the document. This page must include the name(s) of the founder shareholder(s), their signatures, the date of signing, and a full witness attestation block for each signature (including witness name, signature, address, and occupation)."
+        }
+    ]
+}
